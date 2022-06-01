@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Background
+  - Exit
+  - Foreground
+  - Interactable
+  - Item
+  - NPC
+  - Shop
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1021162979
+    locked: 0
+  - name: Foreground
+    uniqueID: 3746017273
+    locked: 0
+  - name: Interactable
+    uniqueID: 1876159575
+    locked: 0
+  - name: Player
+    uniqueID: 2857499257
+    locked: 0
+  - name: BattleScene
+    uniqueID: 2253370945
+    locked: 0
+  - name: BattleUnits
+    uniqueID: 1200010191
+    locked: 0

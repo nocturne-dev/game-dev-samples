@@ -1,0 +1,411 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &239546555023106741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 239546555023106740}
+  - component: {fileID: 239546555023106763}
+  m_Layer: 0
+  m_Name: Sample02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &239546555023106740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239546555023106741}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 239546555595562718}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &239546555023106763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239546555023106741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb2de07c9483294589b855d34b931a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Ubabe
+  playerLvl: 1
+  currentEXP: 0
+  expToNextLvl: 
+  maxLvl: 100
+  baseEXP: 0
+  currentHP: 110
+  maxHP: 110
+  currentMP: 0
+  maxMP: 9
+  strength: 11
+  defense: 8
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 5231510931379762447, guid: fb8cc55af4b7a034584793949fd90500,
+    type: 3}
+--- !u!1 &239546555595562712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 239546555595562718}
+  - component: {fileID: 239546555595562719}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &239546555595562718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239546555595562712}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 239546555677618421}
+  - {fileID: 239546555023106740}
+  - {fileID: 239546556037458935}
+  - {fileID: 239546555746631627}
+  - {fileID: 2273170693637934254}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &239546555595562719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239546555595562712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c91d20ce3ad6ad34a8a8940aab56399d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statsList:
+  - {fileID: 239546555677618420}
+  - {fileID: 239546555023106763}
+  - {fileID: 239546556037458934}
+  referenceItems:
+  - {fileID: 7089483706981112013, guid: c5e866dcd33208a459243ef141fec195, type: 3}
+  - {fileID: 3707703159670957409, guid: 279c6142d4e0df84f837e5f63949ab02, type: 3}
+  - {fileID: 3230726679259139888, guid: fbfcc654d1980ea41ab6cf28e0a001bb, type: 3}
+  - {fileID: 5006925098840231598, guid: 5a21109fe40e91840a5cbb5824808e4e, type: 3}
+  - {fileID: 7128393491018782500, guid: 9d5e268c087f2e344810ff125d7eb65f, type: 3}
+  - {fileID: 6247341888126326723, guid: 127efff393b4e1d4e91e559d57a33ec5, type: 3}
+  numOfItems: 0a000000000000000500000000000000020000000000000000000000000000000100000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  itemsHeld:
+  - Health Potion
+  - 
+  - Mana Potion
+  - 
+  - Leather Armor
+  - 
+  - 
+  - 
+  - Bronze Sword
+  - 
+  - Iron Sword
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  gameMenuActive: 0
+  shopMenuActive: 0
+  dialogueActive: 0
+  sceneTransitionActive: 0
+  battleActive: 0
+  currentGold: 150
+--- !u!1 &239546555677618422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 239546555677618421}
+  - component: {fileID: 239546555677618420}
+  m_Layer: 0
+  m_Name: Sample01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &239546555677618421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239546555677618422}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 239546555595562718}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &239546555677618420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239546555677618422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb2de07c9483294589b855d34b931a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Babii
+  playerLvl: 1
+  currentEXP: 0
+  expToNextLvl: 
+  maxLvl: 100
+  baseEXP: 0
+  currentHP: 100
+  maxHP: 100
+  currentMP: 20
+  maxMP: 20
+  strength: 10
+  defense: 10
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 7152930139536384079, guid: ad986344893061d4bb60ccb7dc33d829,
+    type: 3}
+--- !u!1 &239546555746631604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 239546555746631627}
+  - component: {fileID: 239546555746631626}
+  m_Layer: 0
+  m_Name: Sample04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &239546555746631627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239546555746631604}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 239546555595562718}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &239546555746631626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239546555746631604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb2de07c9483294589b855d34b931a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Jeanie
+  playerLvl: 1
+  currentEXP: 0
+  expToNextLvl: 
+  maxLvl: 100
+  baseEXP: 0
+  currentHP: 90
+  maxHP: 90
+  currentMP: 0
+  maxMP: 15
+  strength: 8
+  defense: 9
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 0}
+--- !u!1 &239546556037458928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 239546556037458935}
+  - component: {fileID: 239546556037458934}
+  m_Layer: 0
+  m_Name: Sample03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &239546556037458935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239546556037458928}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 239546555595562718}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &239546556037458934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239546556037458928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb2de07c9483294589b855d34b931a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Sumikko
+  playerLvl: 1
+  currentEXP: 0
+  expToNextLvl: 
+  maxLvl: 100
+  baseEXP: 0
+  currentHP: 200
+  maxHP: 200
+  currentMP: 10
+  maxMP: 10
+  strength: 5
+  defense: 20
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 21300000, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
+--- !u!1 &7779112903860170348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2273170693637934254}
+  - component: {fileID: 8073113413980743875}
+  m_Layer: 0
+  m_Name: Sample05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2273170693637934254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7779112903860170348}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 239546555595562718}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8073113413980743875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7779112903860170348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb2de07c9483294589b855d34b931a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Braden
+  playerLvl: 1
+  currentEXP: 0
+  expToNextLvl: 
+  maxLvl: 100
+  baseEXP: 0
+  currentHP: 150
+  maxHP: 150
+  currentMP: 0
+  maxMP: 0
+  strength: 15
+  defense: 12
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 0}
